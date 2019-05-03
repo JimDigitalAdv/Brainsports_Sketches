@@ -1,0 +1,206 @@
+@font-face {
+  font-family: "octin";
+  src: url("../fonts/Octin Sports/octin sports rg.ttf")format("truetype");
+}
+
+.body{
+background-color: #ddd;
+}
+
+.team_header{
+text-align: center;
+}
+.brainsports_header h2{
+font-size: 20pt;
+padding:10pt;
+color: #922;
+}
+
+@media screen and (max-width: 768px) {
+    .brainsports_header h2{
+        font-size:15pt;
+    }
+}
+
+.brainsports_header img{
+  width:20%;
+  padding:5pt;
+}
+
+.brainsports_header{
+  text-align: center;
+  padding:5pt;
+}
+
+.team_header img{
+  padding-top:15pt;
+  padding-bottom:15pt;
+  padding-left:10pt;
+  padding-right:10pt;
+  width:80%;
+  -webkit-filter: drop-shadow(5px 3px 1px #111);
+  filter:drop-shadow(5px 3px 1px #111);
+  -webkit-transition: all 0.3s ease-in-out 0s;
+  transition: all 0.3s ease-in-out 0s;
+}
+
+.team_header img:hover{
+width:90%;
+
+}
+
+
+
+.team_header{
+  background-image: linear-gradient(#bbff55, #22bb22);
+  background-color: #64cd23;
+  border-radius:  0pt 0pt 10pt 10pt;
+}
+
+
+.bs_nav{
+
+background-color: #fff;
+border-radius: 10pt 10pt 0pt 0pt;
+
+}
+
+
+
+@media screen and (max-width: 768px) {
+  .bs_nav li{
+    font-size:8pt;
+    margin-right:1pt;
+
+  }
+}
+.bs_nav li{
+  font-size:14pt;
+  margin-right:1pt;
+
+}
+
+
+.bs_nav li a{
+
+    font-family: "octin";
+    letter-spacing: 3px;
+    color:#3e5ca8;
+    position: relative;
+    -webkit-transition: all 0.3s ease-in-out 0s;
+    transition: all 0.3s ease-in-out 0s;
+}
+
+.bs_nav li a:before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  bottom: 5px;
+  left: 0;
+  background-color: #3e5ca8;
+  visibility: hidden;
+  -webkit-transform: scaleX(0);
+  transform: scaleX(0);
+  -webkit-transition: all 0.3s ease-in-out 0s;
+  transition: all 0.3s ease-in-out 0s;
+}
+
+.bs_nav li a:hover:before {
+
+  visibility: visible;
+  -webkit-transform: scaleX(1);
+  transform: scaleX(1);
+}
+
+.bs_nav li a:hover{
+
+  color:#ed462f;
+}
+
+
+.bs_tagline{
+  font-family: "octin";
+  letter-spacing: 2px;
+  font-style: bold;
+  font-size:30pt;
+  padding-top:20pt;
+padding-bottom:20pt;
+
+}
+@media screen and (max-width: 768px) {
+    .bs_tagline{
+        font-size:10pt;
+    }
+}
+
+.bs_news_text{
+  background-color: white;
+}
+
+.bs_news_text h3{
+  padding:15pt;
+}
+.bs_news_text p{
+  padding-bottom:15pt;
+}
+
+
+
+.bs_news_2{
+background-color: white;
+padding:5pt;
+}
+
+h5{
+  font-family: "octin";
+  color:#3e5ca8;
+}
+
+h3{
+  font-family: "octin";
+    color:#3e5ca8;
+
+}
+
+.bs_news_text img{
+  width:100%;
+}
+
+.bs_more_news a{
+  text-decoration: none;
+  list-style-type: none;
+  color:#3e5ca8;
+}
+
+.bs_more_news a:hover{
+  text-decoration: underline;
+  list-style-type: none;
+  color:black;
+}
+
+.bs_more_news{
+background-color: white;
+padding:5pt;
+}
+.bs_more_news li{
+background-color: white;
+padding-top:10pt;
+}
+
+.smaller_text{
+  margin-left:20pt;
+  color:#888;
+}
+.bs_footer{
+  background-color:#aaa;
+}
+.bs_footer h5{
+    color:white;
+}
+.bs_footer a{
+    color:#3e5ca8;
+}
+.bs_copyright{
+  background-color:white;
+}

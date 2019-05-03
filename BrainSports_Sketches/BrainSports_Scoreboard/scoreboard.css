@@ -1,0 +1,157 @@
+@font-face {
+  font-family: "ozone";
+  src: url("../fonts/Ozone.ttf")format("truetype");
+}
+@font-face {
+  font-family: "octin";
+  src: url("../fonts/Octin Sports/octin sports rg.ttf")format("truetype");
+}
+body{
+    background-color: #999;
+}
+.jumbotron {
+  background-color: transparent;
+}
+
+header {
+  text-align: center;
+  width:100%;
+  margin-left:5pt;
+}
+
+.scorecontainer {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #64cd23;
+  position: absolute;
+  z-index: -10;
+  }
+
+.btn {
+  font-family:"ozone";
+  width: 300px;
+  margin-top: 0px;
+  cursor: default;
+  height: 200px;
+  border: 0;
+  outline: none !important;
+  font-size: 150px;
+  display: block;
+  position: relative;
+  z-index: 5;
+  top: 15px;
+}
+
+#timer{
+    font-family:"ozone";
+  background-color: black;
+  color:white;
+  font-size: 50px;
+  display: block;
+  position: absolute;
+    justify-content: center;
+    margin-top:150px;
+    padding:20pt;
+}
+
+#timerbtn{
+  display: inline;
+  position: absolute;
+    justify-content: center;
+    margin-top:300px;
+    padding-bottom: 15pt;
+}
+
+#team1 {
+  background-color: black;
+color:white;
+
+}
+
+#team2 {
+  background-color: black;
+  color:white;
+}
+
+.btncontainer {
+  display: inline-block;
+  margin: 0 45px 20px 45px;
+  text-align: center;
+  & h2 {
+    font-size: 30px;
+    background-color: white;
+    color: #383838;
+    border-radius: 10px;
+    font-weight: 800;
+
+    }
+}
+
+.scorebtn {
+  background-color: #64cd23;
+  color: #ddd;
+  display: inline-block;
+  padding-top: 10px;
+  font-size: 25px;
+
+  border: 0;
+  top: -10px;
+  transition: 0.5s;
+  &:active {
+    box-shadow: none;
+  }
+  &:focus {
+    outline: none;
+  }
+}
+#rounddisplay{
+  height:100px;
+font-size: 20pt;
+
+margin-top:-20px;
+  background-color: white;
+  text-align: center;
+  color:white;
+  background-color: black;
+  font-family:"octin";
+}
+
+#roundnum{
+height:0;
+  font-size:40px;
+  margin-top:-20px;
+    font-family:"ozone";
+    color:white;
+}
+
+
+
+#roundplus,
+#roundminus {
+  background-color: #64cd23;!important;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 12px;
+  color: white;
+  border: none;
+  transition: 0.5s;
+  &:focus {
+    outline: none;
+  }
+  & span {
+    transition: 0.5s;
+  }
+}
+
+#roundplus {
+width: 50px;
+
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+#roundminus {
+  width: 50px;
+}

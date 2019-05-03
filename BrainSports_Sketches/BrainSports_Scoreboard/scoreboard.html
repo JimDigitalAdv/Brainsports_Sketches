@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <link rel="stylesheet" href="scoreboard.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js" charset="utf-8"></script>
+    <title></title>
+  </head>
+  <body>
+      <div>
+      <header>
+        <img src="../images/BS_Seal.png" width="300px;"alt="">
+      </header>
+      <div class="scorecontainer">
+        <div class="btncontainer">
+          <img src="../images/LPL_LOGO.png" width="200px"alt="">
+          <div class="btn" id="team1">0</div>
+          <button class="scorebtn" id="homeplus">+</button>
+          <button class="scorebtn" id="homeminus">-</button>
+        </div>
+        <div id="roundcounter">
+          <button id="roundminus">-</button>
+          <button id="roundplus">+</button>
+          <div id="rounddisplay">
+            <p>Round</p>
+            <p id="roundnum">0<p>
+          </div>
+        </div>
+        <div class="btncontainer">
+          <img src="../images/WW_LOGO.png" width="200px"alt="">
+          <div class="btn" id="team2">0</div>
+          <button class="scorebtn" id="awayplus">+</button>
+          <button class="scorebtn" id="awayminus">-</button>
+        </div>
+
+        <div id="timer"> 00:00</div>
+        <div id="timerbtn">
+          <button type="button" onclick="timer_start()"name="button">Start</button>
+          <button type="button" onclick="timer_stop()" name="button">Stop</button>
+          <button type="button" onclick="timer_reset()" name="button">Reset</button>
+          <button type="button" onclick="timer_add()" name="button">+</button>
+          <button type="button" onclick="timer_sub()" name="button">-</button>
+
+        </div>
+
+
+      </div>
+    </div>
+    <script src="scoreboard.js" charset="utf-8"></script>
+
+  </body>
+</html>
